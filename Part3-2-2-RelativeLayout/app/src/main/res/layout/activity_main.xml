@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/RelativeLayout01">
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Loing ID :"
+        android:layout_alignBaseline="@+id/EditText01"/>
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:hint="Enter Id" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:layout_below="@+id/TextView01"
+        android:layout_alignBaseline="@+id/EditText02"/>
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_toRightOf="@+id/TextView02"
+        android:layout_below="@+id/EditText01"
+        android:hint="Enter password" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Login"
+        android:width="100dp"
+        android:typeface="normal"
+        android:layout_below="@+id/EditText02"
+        android:textSize="10sp"/>
+</RelativeLayout>
