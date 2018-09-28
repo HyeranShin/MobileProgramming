@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressBar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="SeekBar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <SeekBar
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:max="800"/>
+
+    <SeekBar
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:max="800"
+        android:thumb="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="RatingBar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10"
+        android:stepSize="0.1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:soundEffectsEnabled="true"/>
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format="timer: %s"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+</LinearLayout>
