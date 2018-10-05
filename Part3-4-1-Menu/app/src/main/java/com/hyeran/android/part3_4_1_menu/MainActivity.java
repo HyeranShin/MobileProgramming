@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     // 1st 삽입
     TextView objTxView; // TextView 객체 선언
+    RelativeLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {    // 나 자신의 액티비티 생성
@@ -50,8 +53,9 @@ public class MainActivity extends AppCompatActivity {
 
         // 2nd 삽입
         objTxView = findViewById(R.id.textView1);
+        layout = findViewById(R.id.layout);
         // findViewById - 레이아웃에 선언한 태그 부르기
-        registerForContextMenu(objTxView);  // Context menu 제공
+        registerForContextMenu(layout);  // Context menu 제공
     }
 
     // ========================== Menu ==========================
@@ -142,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
     // ========================== Context Menu ==========================
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-        SubMenu mnuTextBackGroundColor = menu.addSubMenu("Text Background");
+        SubMenu mnuTextBackGroundColor = menu.addSubMenu("Layout Background");
         mnuTextBackGroundColor.add(Menu.NONE, ID_COLOR_RED, Menu.NONE, "RED");
         mnuTextBackGroundColor.add(Menu.NONE, ID_COLOR_GREEN, Menu.NONE, "GREEN");
         mnuTextBackGroundColor.add(Menu.NONE, ID_COLOR_BLUE, Menu.NONE, "BLUE");
@@ -154,13 +158,13 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case ID_COLOR_RED:
-                objTxView.setBackgroundColor(Color.RED);
+                layout.setBackgroundColor(Color.RED);
                 return true;
             case ID_COLOR_BLUE:
-                objTxView.setBackgroundColor(Color.BLUE);
+                layout.setBackgroundColor(Color.BLUE);
                 return true;
             case ID_COLOR_GREEN:
-                objTxView.setBackgroundColor(Color.GREEN);
+                layout.setBackgroundColor(Color.GREEN);
                 return true;
         }
         return super.onContextItemSelected(item);
