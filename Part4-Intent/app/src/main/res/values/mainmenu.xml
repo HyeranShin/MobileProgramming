@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mainmenu">
+        <item>명시적 인텐트 예제</item>
+        <item>암시적 인텐트 예제</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intentlist">
+        <item>ACTION_DIAL</item>
+        <item>ACTION_CALL</item>
+        <item>ACTION_SEARCH</item>
+        <item>ACTION_SENDTO</item>
+        <item>ACTION_WEB_SEARCH</item>
+        <item>ACTION_PICK</item>
+        <item>ACTION_VIEW1 [웹]</item>
+        <item>ACTION_VIEW1 [문자]</item>
+        <item>ACTION_VIEW1 [지도]</item>
+    </string-array>
+</resources>
