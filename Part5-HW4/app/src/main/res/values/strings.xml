@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Part5-HW4</string>
+    <string name="title01">2018.10.11 졸업 작품 전시회</string>
+    <string name="artist01">실습실 501호에서 IT공학과 졸업작품전시회 행사가 진행되었습니다.\n
+    한 학기 동안 열심히 준비하신 졸업작품을 전시하게 된 선배님들 축하드립니다!</string>
+    <string name="picture01">pic1</string>
+    <string name="title02">2018.10.02 중간고사 간식 쿠폰 배부</string>
+    <string name="artist02">이번 중간고사 간식은 아리랑 3,500원 쿠폰입니다!\n
+        학생회비를 납부하신 분들(대리 수령 불가능)에 한해 받으실 수 있습니다.\n
+    당일 시간 내에 오셔서 간식 쿠폰 수령하시고 모두 열공하시기 바랍니다.\n\n
+    * 명신관 504호 과방, 오전 10시 ~ 오후 3시</string>
+    <string name="picture02">pic2</string>
+    <string name="title03">2018.09.04 2학기 개강 총회</string>
+    <string name="artist03">2학기 개강 총회 행사가 쌍대포에서 진행되었습니다!\n
+    IT공학과의 학생들과 교수님들과 좋은 시간을 가졌으며,\n
+        새로 오신 동서연 교수님와 만나뵐 수 있었던 뜻깊은 자리였습니다.</string>
+    <string name="picture03">pic3</string>
+</resources>
