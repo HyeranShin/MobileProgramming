@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Tween Animation"/>
 
     <LinearLayout
@@ -19,27 +19,32 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/buttonAlpha"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Fade"/>
         <Button
             android:id="@+id/buttonScale"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Grow"/>
         <Button
             android:id="@+id/buttonTranslate"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Move"/>
         <Button
             android:id="@+id/buttonRotate"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Spin"/>
         <Button
             android:id="@+id/buttonAll"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="All"/>
 
