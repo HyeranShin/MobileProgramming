@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
     private void startAnimation() {
         ImageView img = findViewById(R.id.ImageView_Jnggle);
 
-        BitmapDrawable frame1 = (BitmapDrawable)getResources().getDrawable(R.drawable.img1);
-        BitmapDrawable frame2 = (BitmapDrawable)getResources().getDrawable(R.drawable.img2);
-        BitmapDrawable frame3 = (BitmapDrawable)getResources().getDrawable(R.drawable.img3);
-        BitmapDrawable frame4 = (BitmapDrawable)getResources().getDrawable(R.drawable.img4);
+        BitmapDrawable frame1 = (BitmapDrawable)getResources().getDrawable(R.drawable.pairi1);
+        BitmapDrawable frame2 = (BitmapDrawable)getResources().getDrawable(R.drawable.pairi2);
+        BitmapDrawable frame3 = (BitmapDrawable)getResources().getDrawable(R.drawable.pairi3);
+        BitmapDrawable frame4 = (BitmapDrawable)getResources().getDrawable(R.drawable.pairi4);
 
         int reasonableDuration = 200;
         mframeAnimation = new AnimationDrawable();
