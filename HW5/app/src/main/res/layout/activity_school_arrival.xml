@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolArrivalActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/school_gate"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/iv_me_gotoschool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="146dp"
+        android:layout_marginEnd="139dp"
+        android:src="@drawable/me_withbag" />
+
+    <TextView
+        android:id="@+id/speech_bubble"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/speech_buble"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:paddingRight="10dp"
+        android:text="와아 학교 도착!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_next_schoolarrival"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button"
+        android:text="수업 들으러 가기"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        />
+
+
+</RelativeLayout>

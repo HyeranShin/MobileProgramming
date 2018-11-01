@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/room"
+    >
+
+    <ImageView
+        android:id="@+id/iv_sun"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sun"/>
+
+    <ImageView
+        android:id="@+id/iv_me_main"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="219dp"
+        android:rotation="-80"
+        android:src="@drawable/me" />
+
+    <TextView
+        android:id="@+id/speech_bubble_main"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/iv_sun"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/speech_buble"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:paddingRight="10dp"
+        android:text="Good Morning!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_table"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/table" />
+
+    <ImageView
+        android:id="@+id/iv_breakfast"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="157dp"
+        android:src="@drawable/breakfast" />
+
+    <Button
+        android:id="@+id/btn_prepare_main"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:visibility="invisible"
+        android:background="@drawable/button"
+        android:text="학교 가기"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_bag_main"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/iv_me_main"
+        android:layout_alignEnd="@+id/iv_me_main"
+        android:src="@drawable/bag"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room"
+    tools:context=".LastActivity">
+
+    <ImageView
+        android:id="@+id/iv_moon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="invisible"
+        android:src="@drawable/moon"/>
+
+    <ImageView
+        android:id="@+id/iv_me_last"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:layout_toEndOf="@+id/iv_moon"
+        android:src="@drawable/me" />
+
+    <TextView
+        android:id="@+id/speech_bubble2_last"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginTop="249dp"
+        android:background="@drawable/speech_buble"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:paddingRight="10dp"
+        android:text="Good Night!"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/iv_table_last"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/table" />
+
+    <ImageView
+        android:id="@+id/iv_books"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/books"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_dinner"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="157dp"
+        android:src="@drawable/dinner" />
+
+    <TextView
+        android:id="@+id/speech_bubble_last"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/speech_buble"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:paddingRight="10dp"
+        android:text="집 도착했다~\n저녁 먹어야지"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sleep_last"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:visibility="invisible"
+        android:background="@drawable/button"
+        android:text="자러 가기"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_notebook_last"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="142dp"
+        android:src="@drawable/notebook" />
+
+    <ImageView
+        android:id="@+id/iv_pencil_last"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="201dp"
+        android:visibility="invisible"
+        android:layout_marginEnd="296dp"
+        android:rotation="45"
+        android:src="@drawable/pencil" />
+
+
+</RelativeLayout>
