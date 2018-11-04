@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         >
         <TextView
-            android:id="@+id/A1"
+            android:id="@+id/A01"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A1"
@@ -43,7 +43,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A2"
+            android:id="@+id/A02"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A2"
@@ -51,7 +51,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A3"
+            android:id="@+id/A03"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A3"
@@ -59,7 +59,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A4"
+            android:id="@+id/A04"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A4"
@@ -67,7 +67,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A5"
+            android:id="@+id/A05"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A5"
@@ -75,7 +75,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A6"
+            android:id="@+id/A06"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A6"
@@ -83,7 +83,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A7"
+            android:id="@+id/A07"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A7"
@@ -91,7 +91,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A8"
+            android:id="@+id/A08"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A8"
@@ -99,7 +99,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/A9"
+            android:id="@+id/A09"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="A9"
@@ -124,7 +124,7 @@
         android:layout_gravity="center_horizontal"
         >
         <TextView
-            android:id="@+id/B1"
+            android:id="@+id/B01"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B1"
@@ -132,7 +132,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B2"
+            android:id="@+id/B02"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B2"
@@ -140,7 +140,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B3"
+            android:id="@+id/B03"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B3"
@@ -148,7 +148,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B4"
+            android:id="@+id/B04"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B4"
@@ -156,7 +156,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B5"
+            android:id="@+id/B05"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B5"
@@ -164,7 +164,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B6"
+            android:id="@+id/B06"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B6"
@@ -172,7 +172,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B7"
+            android:id="@+id/B07"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B7"
@@ -180,7 +180,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B8"
+            android:id="@+id/B08"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B8"
@@ -188,7 +188,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/B9"
+            android:id="@+id/B09"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="B9"
@@ -213,7 +213,7 @@
         android:layout_gravity="center_horizontal"
         >
         <TextView
-            android:id="@+id/C1"
+            android:id="@+id/C01"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C1"
@@ -221,7 +221,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C2"
+            android:id="@+id/C02"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C2"
@@ -229,7 +229,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C3"
+            android:id="@+id/C03"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C3"
@@ -237,7 +237,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C4"
+            android:id="@+id/C04"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C4"
@@ -245,7 +245,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C5"
+            android:id="@+id/C05"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C5"
@@ -253,7 +253,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C6"
+            android:id="@+id/C06"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C6"
@@ -261,7 +261,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C7"
+            android:id="@+id/C07"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C7"
@@ -269,7 +269,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C8"
+            android:id="@+id/C08"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C8"
@@ -277,7 +277,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/C9"
+            android:id="@+id/C09"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="C9"
@@ -302,7 +302,7 @@
         android:layout_gravity="center_horizontal"
         >
         <TextView
-            android:id="@+id/D1"
+            android:id="@+id/D01"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D1"
@@ -310,7 +310,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D2"
+            android:id="@+id/D02"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D2"
@@ -318,7 +318,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D3"
+            android:id="@+id/D03"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D3"
@@ -326,7 +326,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D4"
+            android:id="@+id/D04"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D4"
@@ -334,7 +334,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D5"
+            android:id="@+id/D05"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D5"
@@ -342,7 +342,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D6"
+            android:id="@+id/D06"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D6"
@@ -350,7 +350,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D7"
+            android:id="@+id/D07"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D7"
@@ -358,7 +358,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D8"
+            android:id="@+id/D08"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D8"
@@ -366,7 +366,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/D9"
+            android:id="@+id/D09"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="D9"
@@ -391,7 +391,7 @@
         android:layout_gravity="center_horizontal"
         >
         <TextView
-            android:id="@+id/E1"
+            android:id="@+id/E01"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E1"
@@ -399,7 +399,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E2"
+            android:id="@+id/E02"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E2"
@@ -407,7 +407,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E3"
+            android:id="@+id/E03"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E3"
@@ -415,7 +415,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E4"
+            android:id="@+id/E04"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E4"
@@ -423,7 +423,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E5"
+            android:id="@+id/E05"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E5"
@@ -431,7 +431,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E6"
+            android:id="@+id/E06"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E6"
@@ -439,7 +439,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E7"
+            android:id="@+id/E07"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E7"
@@ -447,7 +447,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E8"
+            android:id="@+id/E08"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E8"
@@ -455,7 +455,7 @@
             android:gravity="center"
             android:background="@drawable/empty_seat"/>
         <TextView
-            android:id="@+id/E9"
+            android:id="@+id/E09"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="E9"
