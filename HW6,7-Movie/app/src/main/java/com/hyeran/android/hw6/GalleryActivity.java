@@ -2,24 +2,28 @@ package com.hyeran.android.hw6;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.Gallery;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.hyeran.android.hw6.MainActivity.movieCharatorFile;
 import static com.hyeran.android.hw6.MainActivity.posterGenre;
 import static com.hyeran.android.hw6.MainActivity.posterID;
 import static com.hyeran.android.hw6.MainActivity.posterTime;
 import static com.hyeran.android.hw6.MainActivity.posterTitle;
+import static com.hyeran.android.hw6.MainActivity.videoID;
 
 public class GalleryActivity extends AppCompatActivity {
 
@@ -57,6 +61,7 @@ public class GalleryActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
 
     protected class GalleryAdapter extends BaseAdapter {
@@ -102,6 +107,20 @@ public class GalleryActivity extends AppCompatActivity {
                     genre.setText(posterGenre[position]);
                     TextView time = findViewById(R.id.tv_time_gallery);
                     time.setText(posterTime[position]);
+                    ImageView movieCharactor = findViewById(R.id.iv_movie_ch);
+                    movieCharactor.setImageDrawable(getDrawable(movieCharatorFile[position]));
+                    Animation anim = AnimationUtils.loadAnimation(GalleryActivity.this, R.anim.translate);
+                    movieCharactor.startAnimation(anim);
+                    Button btn = findViewById(R.id.btn_preview_gallery);
+                    btn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(
+                                    Intent.ACTION_VIEW,
+                                    Uri.parse( "http://youtu.be/" + videoID[position] ));
+                            startActivity( intent );
+                        }
+                    });
                     return false;
                 }
             });

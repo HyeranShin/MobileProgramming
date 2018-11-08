@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hyeran.android.hw6">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
@@ -21,8 +23,10 @@
         <activity android:name=".GridActivity" />
         <activity android:name=".GalleryActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".SelectSeatActivity"></activity>
-        <activity android:name=".FinishActivity"></activity>
+        <activity android:name=".SelectSeatActivity" />
+        <activity android:name=".FinishActivity" />
+        <activity android:name=".VideoActivity">
+        </activity>
     </application>
 
 </manifest>
