@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="재생"
+        android:background="#bbdefb"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_volume"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="볼륨조절:최대로"
+        android:background="#bbdefb"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
