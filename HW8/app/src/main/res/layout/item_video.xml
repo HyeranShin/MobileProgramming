@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,5 +12,12 @@
         android:layout_height="wrap_content"
         android:text="비디오명"
         android:fontFamily="@font/nanumsquare_bold"
-        android:textSize="30sp"/>
-</android.support.constraint.ConstraintLayout>
+        android:textSize="30sp"
+        android:layout_centerVertical="true"/>
+    <ImageButton
+        android:id="@+id/ib_delete_item"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ic_delete_black_24dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

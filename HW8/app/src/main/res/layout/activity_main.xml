@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/btn_z"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="나의 비디오방"
@@ -34,9 +35,5 @@
         android:layout_marginVertical="20dp"
         android:layout_gravity="center_horizontal"/>
 
-    <VideoView
-        android:id="@+id/videoview_main"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 </LinearLayout>
